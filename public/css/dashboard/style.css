@@ -1,0 +1,302 @@
+:root,
+[data-bs-theme=light] {
+  --bs-border-radius: 0.5rem;
+  --bs-border-radius-sm: 0.35rem;
+  --bs-border-radius-lg: 0.75rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-xxl: 2rem;
+  --bs-border-radius-2xl: var(--bs-border-radius-xxl);
+  --bs-border-radius-pill: 50rem;
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+    border-radius: 1rem !important;
+}
+
+div:where(.swal2-container) h2:where(.swal2-title) {
+    font-family: 'Outfit', sans-serif;
+}
+
+div:where(.swal2-container) .swal2-html-container {
+    margin: 0.1em 1.6em .1em !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled) {
+    padding: .625em 3.1em !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+    border-radius: .5em !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-cancel {
+  border-radius: .5em !important;
+  background-color: #1a1b1c !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f17907;
+}
+
+.modal {
+    --bs-modal-width: 550px;
+}
+
+.btn {
+    --bs-btn-padding-y: 0.35rem;
+}
+
+.btn-info {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #0396f5;
+    --bs-btn-border-color: #0396f5;
+}
+
+.font-outfit {
+    font-family: 'Outfit', sans-serif;
+}
+
+.font-opensans {
+    font-family: "Open Sans", sans-serif;
+}
+
+.card {
+    --bs-card-border-radius: var(--bs-border-radius-lg);
+}
+
+.card .card-header h3 {
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.card-footer {
+    padding: 0.75rem 1rem;
+}
+
+.login-logo a:hover, .register-logo a:hover {
+    color: #f17907;
+}
+
+.login-logo {
+    width: 100px;
+    max-width: 120px;
+    height: auto;
+}
+
+.login-card-body, .register-card-body {
+    background-color: unset;
+    border-top: 0;
+}
+
+.login-box .login-footer {
+    text-align: center;
+    color: #6c757d;
+    margin-top: 20px;
+}
+
+.modal-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.navbar-badge {
+    top: 5px;
+    right: 0px;
+}
+
+.dropdown-menu {
+    --bs-dropdown-min-width: 8rem;
+    --bs-dropdown-padding-y: 0;
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+    background-color: #fd6600;
+    color: #fff;
+}
+
+.dropdown-item:first-child:hover, .dropdown-item:first-child:focus {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.dropdown-item:last-child:hover, .dropdown-item:last-child:focus {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu, .navbar-nav > .user-menu > .dropdown-menu > .user-body {
+    border-radius: var(--bs-border-radius-lg);
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header {
+    padding: 10px 10px 0 10px;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header .text-bg-primary {
+    padding: 20px 10px;
+    border-radius: var(--bs-border-radius-lg);
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header img.avatar {
+    max-width: 100px;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu {
+    width: 140px;
+}
+
+.sidebar-brand .brand-text {
+    margin-left: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+.sidebar-wrapper .sidebar-menu > .nav-item > .nav-link.active:not(:hover) {
+    background-color: #fd6600;
+}
+
+.sidebar-wrapper .sidebar-menu > .nav-item > .nav-link.active:hover {
+    background-color: #fd6600;
+}
+
+.sidebar-wrapper .sidebar-menu > .nav-item > .nav-link:hover {
+    background-color: #0d6efd;
+}
+
+.sidebar-wrapper .sidebar-menu > .nav-item > .nav-treeview .nav-link:hover {
+    background-color: #0d6efd;
+}
+
+.sidebar-wrapper .nav-treeview > .nav-item > .nav-link.active, .sidebar-wrapper .nav-treeview > .nav-item > .nav-link.active:hover, .sidebar-wrapper .nav-treeview > .nav-item > .nav-link.active:focus {
+    background-color: #fd6600;
+}
+
+.dropdown-menu li {
+    border-bottom: 1px solid #ddd;
+    font-size: 0.875em;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.app-main .app-content-header h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+}
+
+.small-box {
+    border-radius: var(--bs-border-radius-lg);
+}
+
+.small-box > .inner {
+    padding: 20px 15px 0;
+}
+
+.small-box > .small-box-footer {
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+
+.pagination {
+    --bs-pagination-padding-y: 0.25rem;
+    --bs-pagination-padding-x: 0.65rem;
+    --bs-pagination-active-bg: #f17907;
+    --bs-pagination-active-border-color: #f17907;
+    font-size: 0.95em;
+}
+
+ul.pagination {
+    margin-bottom: 0;
+}
+
+.page-link {
+    font-size: 0.95em;
+}
+
+.page-link:hover {
+    color: #fff;
+    background-color: #f17907;
+    border-color: #f17907;
+}
+
+.form-header {
+    padding: 0.5rem 1rem;
+    background-color: #4a4d51;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.form-label {
+    padding-top: 5px;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.form-control:disabled {
+    background-color: #e9ecef;
+    opacity: 1;
+    transition: none;
+    appearance: none;
+    pointer-events: none;
+}
+
+.form-control-0 {
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    box-shadow: unset;
+}
+
+.input-group-text {
+    background-color: #adb5bd;
+}
+
+.table {
+    font-size: 0.9em;
+}
+
+.table-shadow {
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.icon-preview {
+    max-width: 150px;
+    height: auto;
+}
+
+.mt-n-2 {
+    margin-top: -0.5rem
+}
+
+@media (max-width: 960px) {
+    .form-label {
+        padding-top: 0;
+    }
+
+    .sm-full-fw {
+        width: 100%;
+    }
+
+    .mb-sm-2 {
+        margin-bottom: 0.5rem !important;
+    }
+}
+
+@media (min-width: 1200px) and (min-width: 1200px) {
+    .col-xl-3 .small-box h3, .col-xl-3 .small-box .h3, .col-lg-3 .small-box h3, .col-lg-3 .small-box .h3, .col-md-3 .small-box h3, .col-md-3 .small-box .h3 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,95 @@
+.font-outfit {
+    font-family: 'Outfit', sans-serif;
+}
+
+.font-xs {
+    font-size: 0.85em;
+}
+
+.header {
+    border-bottom: double 5px #ddd;
+}
+
+.header h3 {
+    font-size: 1.8em;
+}
+
+.table {
+    font-size: 0.9em;
+}
+
+img.logo-inv {
+    max-width: 500px;
+    max-height: 120px;
+}
+
+img.logo-kas {
+    max-width: 500px;
+    max-height: 80px;
+    margin-bottom: 1rem;
+}
+
+ul.customer {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.customer>li {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+ul.customer>li:first-child {
+    padding-top: 0;
+    padding-bottom: 3px;
+}
+
+ul.customer>li:last-child {
+    padding-top: 3px;
+    padding-bottom: 0;
+}
+
+.terbilang {
+    border: 1px solid #ddd;
+    background: #eeeeee;
+    padding: 10px 15px;
+}
+
+
+.status-pembayaran {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+
+    .terbilang {
+        border: 1px solid #ddd;
+        background: #eeeeee !important;
+        padding: 10px 15px;
+        print-color-adjust: exact; 
+    }
+
+    .status-pembayaran {
+        border: 1px solid #ddd;
+        padding: 10px 15px;
+    }
+
+    /* .bg-success {
+        background-color: #198754 !important;
+        color: #fff !important;
+        print-color-adjust: exact; 
+    }
+
+    .bg-danger {
+        background-color: #dc3545 !important;
+        color: #fff !important;
+        print-color-adjust: exact; 
+    } */
+}
+
+
+
